@@ -1,0 +1,507 @@
+{
+  "name": "skills-stack",
+  "owner": {
+    "name": "marslanalvi"
+  },
+  "metadata": {
+    "description": "A categorized compilation of open-source AI agent skills. All credit to the original authors, who keep all rights to their work; see CREDITS.md.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "engineering-python",
+      "source": "./plugins/engineering/python",
+      "description": "Python patterns, packaging, typing, async, testing and frameworks (Django, FastAPI)",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "python"
+      ]
+    },
+    {
+      "name": "engineering-javascript-typescript",
+      "source": "./plugins/engineering/javascript-typescript",
+      "description": "JavaScript, TypeScript, Node.js, Bun and server-side JS frameworks (NestJS, etc.)",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "javascript-typescript"
+      ]
+    },
+    {
+      "name": "engineering-jvm",
+      "source": "./plugins/engineering/jvm",
+      "description": "Java, Kotlin and JVM frameworks (Spring Boot, Quarkus, Ktor, JPA)",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "jvm"
+      ]
+    },
+    {
+      "name": "engineering-systems-languages",
+      "source": "./plugins/engineering/systems-languages",
+      "description": "Rust, Go, C and C++: systems programming, concurrency and memory safety",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "systems-languages"
+      ]
+    },
+    {
+      "name": "engineering-other-languages",
+      "source": "./plugins/engineering/other-languages",
+      "description": "PHP/Laravel, Ruby/Rails, Perl, .NET/C#/F#, and other languages and frameworks",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "other-languages"
+      ]
+    },
+    {
+      "name": "engineering-frontend",
+      "source": "./plugins/engineering/frontend",
+      "description": "Web frontend: React, Vue, Angular, Next.js, Nuxt, CSS/Tailwind and frontend performance",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "frontend"
+      ]
+    },
+    {
+      "name": "engineering-mobile",
+      "source": "./plugins/engineering/mobile",
+      "description": "iOS, Android, Flutter, React Native, SwiftUI, Expo and desktop apps",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "mobile"
+      ]
+    },
+    {
+      "name": "engineering-architecture-api",
+      "source": "./plugins/engineering/architecture-api",
+      "description": "Software architecture, API design, microservices, event-driven systems and design patterns",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "architecture-api"
+      ]
+    },
+    {
+      "name": "engineering-databases",
+      "source": "./plugins/engineering/databases",
+      "description": "SQL, Postgres, MySQL, Redis, ORMs, schema design and migrations",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "databases"
+      ]
+    },
+    {
+      "name": "engineering-testing",
+      "source": "./plugins/engineering/testing",
+      "description": "TDD, unit/integration/E2E testing, test patterns and verification",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "testing"
+      ]
+    },
+    {
+      "name": "engineering-code-review-quality",
+      "source": "./plugins/engineering/code-review-quality",
+      "description": "Code review, refactoring, simplification, code quality and technical debt",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "code-review-quality"
+      ]
+    },
+    {
+      "name": "engineering-debugging",
+      "source": "./plugins/engineering/debugging",
+      "description": "Debugging, root-cause analysis, error handling and regression hunting",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "debugging"
+      ]
+    },
+    {
+      "name": "engineering-dev-workflow",
+      "source": "./plugins/engineering/dev-workflow",
+      "description": "Planning, specs, tickets, documentation/ADRs, onboarding and implementation workflow",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "dev-workflow"
+      ]
+    },
+    {
+      "name": "engineering-git-github",
+      "source": "./plugins/engineering/git-github",
+      "description": "Git, GitHub, pull requests, releases, monorepos, build tooling and dependency upgrades",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "git-github"
+      ]
+    },
+    {
+      "name": "engineering-game-development",
+      "source": "./plugins/engineering/game-development",
+      "description": "Game engines and game development (Unity, Godot, Minecraft, etc.)",
+      "version": "1.0.0",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "game-development"
+      ]
+    },
+    {
+      "name": "devops-ci-cd",
+      "source": "./plugins/devops/ci-cd",
+      "description": "CI/CD pipelines, GitHub Actions, GitLab CI, release and deployment automation",
+      "version": "1.0.0",
+      "category": "devops",
+      "keywords": [
+        "devops",
+        "ci-cd"
+      ]
+    },
+    {
+      "name": "devops-containers-kubernetes",
+      "source": "./plugins/devops/containers-kubernetes",
+      "description": "Docker, Kubernetes, Helm, service mesh and GitOps",
+      "version": "1.0.0",
+      "category": "devops",
+      "keywords": [
+        "devops",
+        "containers-kubernetes"
+      ]
+    },
+    {
+      "name": "devops-cloud",
+      "source": "./plugins/devops/cloud",
+      "description": "AWS, Azure, GCP, Cloudflare, serverless and multi-cloud",
+      "version": "1.0.0",
+      "category": "devops",
+      "keywords": [
+        "devops",
+        "cloud"
+      ]
+    },
+    {
+      "name": "devops-observability-sre",
+      "source": "./plugins/devops/observability-sre",
+      "description": "Monitoring, tracing, logging, SLOs, incident response and on-call",
+      "version": "1.0.0",
+      "category": "devops",
+      "keywords": [
+        "devops",
+        "observability-sre"
+      ]
+    },
+    {
+      "name": "devops-infrastructure-networking",
+      "source": "./plugins/devops/infrastructure-networking",
+      "description": "Terraform/IaC, Linux administration, shell scripting, networking and homelab",
+      "version": "1.0.0",
+      "category": "devops",
+      "keywords": [
+        "devops",
+        "infrastructure-networking"
+      ]
+    },
+    {
+      "name": "security-appsec-review",
+      "source": "./plugins/security/appsec-review",
+      "description": "Secure coding, security code review, static analysis (Semgrep, CodeQL) and audits",
+      "version": "1.0.0",
+      "category": "security",
+      "keywords": [
+        "security",
+        "appsec-review"
+      ]
+    },
+    {
+      "name": "security-offensive-security",
+      "source": "./plugins/security/offensive-security",
+      "description": "Penetration testing, bug bounty, vulnerability hunting, reverse engineering and threat modeling",
+      "version": "1.0.0",
+      "category": "security",
+      "keywords": [
+        "security",
+        "offensive-security"
+      ]
+    },
+    {
+      "name": "security-fuzzing",
+      "source": "./plugins/security/fuzzing",
+      "description": "Fuzzing, sanitizers, property-based and cryptographic testing",
+      "version": "1.0.0",
+      "category": "security",
+      "keywords": [
+        "security",
+        "fuzzing"
+      ]
+    },
+    {
+      "name": "security-blockchain-web3",
+      "source": "./plugins/security/blockchain-web3",
+      "description": "Smart-contract security, DeFi, Solidity and Web3 development",
+      "version": "1.0.0",
+      "category": "security",
+      "keywords": [
+        "security",
+        "blockchain-web3"
+      ]
+    },
+    {
+      "name": "security-compliance-privacy",
+      "source": "./plugins/security/compliance-privacy",
+      "description": "HIPAA, GDPR, PCI, SOC and other compliance, privacy and secrets management",
+      "version": "1.0.0",
+      "category": "security",
+      "keywords": [
+        "security",
+        "compliance-privacy"
+      ]
+    },
+    {
+      "name": "ai-agent-engineering",
+      "source": "./plugins/ai/agent-engineering",
+      "description": "Building AI agents: harnesses, multi-agent orchestration, autonomous loops and agent evaluation",
+      "version": "1.0.0",
+      "category": "ai",
+      "keywords": [
+        "ai",
+        "agent-engineering"
+      ]
+    },
+    {
+      "name": "ai-llm-applications",
+      "source": "./plugins/ai/llm-applications",
+      "description": "LLM apps: prompting, RAG, embeddings, vector search, caching, evals and model APIs",
+      "version": "1.0.0",
+      "category": "ai",
+      "keywords": [
+        "ai",
+        "llm-applications"
+      ]
+    },
+    {
+      "name": "ai-machine-learning",
+      "source": "./plugins/ai/machine-learning",
+      "description": "ML training, fine-tuning, MLOps, model serving, PyTorch and data science",
+      "version": "1.0.0",
+      "category": "ai",
+      "keywords": [
+        "ai",
+        "machine-learning"
+      ]
+    },
+    {
+      "name": "ai-coding-assistant-workflow",
+      "source": "./plugins/ai/coding-assistant-workflow",
+      "description": "Getting more from AI coding assistants: setup, context and token management, memory, guardrails, subagents",
+      "version": "1.0.0",
+      "category": "ai",
+      "keywords": [
+        "ai",
+        "coding-assistant-workflow"
+      ]
+    },
+    {
+      "name": "ai-skill-authoring",
+      "source": "./plugins/ai/skill-authoring",
+      "description": "Creating, testing, auditing and managing agent skills, rules and hooks",
+      "version": "1.0.0",
+      "category": "ai",
+      "keywords": [
+        "ai",
+        "skill-authoring"
+      ]
+    },
+    {
+      "name": "data-data-engineering-analytics",
+      "source": "./plugins/data/data-engineering-analytics",
+      "description": "Data pipelines (Airflow, dbt, Spark), analytics, dashboards and metrics",
+      "version": "1.0.0",
+      "category": "data",
+      "keywords": [
+        "data",
+        "data-engineering-analytics"
+      ]
+    },
+    {
+      "name": "data-research",
+      "source": "./plugins/data/research",
+      "description": "Deep research, web search, scientific literature, scraping and fact-finding",
+      "version": "1.0.0",
+      "category": "data",
+      "keywords": [
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "design-ui-ux",
+      "source": "./plugins/design/ui-ux",
+      "description": "UI/UX design, design systems, visual styles, interaction and landing pages",
+      "version": "1.0.0",
+      "category": "design",
+      "keywords": [
+        "design",
+        "ui-ux"
+      ]
+    },
+    {
+      "name": "design-media-creative",
+      "source": "./plugins/design/media-creative",
+      "description": "Images, video, motion, animation, generative art, diagrams and presentations visuals",
+      "version": "1.0.0",
+      "category": "design",
+      "keywords": [
+        "design",
+        "media-creative"
+      ]
+    },
+    {
+      "name": "design-accessibility",
+      "source": "./plugins/design/accessibility",
+      "description": "Accessibility audits, WCAG, screen readers and inclusive design",
+      "version": "1.0.0",
+      "category": "design",
+      "keywords": [
+        "design",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "marketing-seo",
+      "source": "./plugins/marketing/seo",
+      "description": "SEO, AI search optimization, schema markup, programmatic SEO and site architecture",
+      "version": "1.0.0",
+      "category": "marketing",
+      "keywords": [
+        "marketing",
+        "seo"
+      ]
+    },
+    {
+      "name": "marketing-content-social",
+      "source": "./plugins/marketing/content-social",
+      "description": "Content strategy, copywriting for marketing, social media, newsletters and PR",
+      "version": "1.0.0",
+      "category": "marketing",
+      "keywords": [
+        "marketing",
+        "content-social"
+      ]
+    },
+    {
+      "name": "marketing-growth-ads",
+      "source": "./plugins/marketing/growth-ads",
+      "description": "Growth, CRO, ads, analytics tracking, A/B tests, pricing, email/SMS campaigns and launches",
+      "version": "1.0.0",
+      "category": "marketing",
+      "keywords": [
+        "marketing",
+        "growth-ads"
+      ]
+    },
+    {
+      "name": "business-strategy-sales",
+      "source": "./plugins/business/strategy-sales",
+      "description": "Startup strategy, market research, competitive analysis, sales, fundraising and investor work",
+      "version": "1.0.0",
+      "category": "business",
+      "keywords": [
+        "business",
+        "strategy-sales"
+      ]
+    },
+    {
+      "name": "business-operations-finance",
+      "source": "./plugins/business/operations-finance",
+      "description": "Finance, billing, payments, logistics, supply chain, HR and operations",
+      "version": "1.0.0",
+      "category": "business",
+      "keywords": [
+        "business",
+        "operations-finance"
+      ]
+    },
+    {
+      "name": "business-legal-industry",
+      "source": "./plugins/business/legal-industry",
+      "description": "Legal documents, contracts and industry-specific work (healthcare, government, real estate, etc.)",
+      "version": "1.0.0",
+      "category": "business",
+      "keywords": [
+        "business",
+        "legal-industry"
+      ]
+    },
+    {
+      "name": "productivity-documents-office",
+      "source": "./plugins/productivity/documents-office",
+      "description": "Word, PDF, PowerPoint, Excel, Google Workspace and file conversion",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "productivity",
+        "documents-office"
+      ]
+    },
+    {
+      "name": "productivity-writing-communication",
+      "source": "./plugins/productivity/writing-communication",
+      "description": "Writing, editing, internal communication and avoiding AI-sounding prose",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "productivity",
+        "writing-communication"
+      ]
+    },
+    {
+      "name": "productivity-thinking-planning",
+      "source": "./plugins/productivity/thinking-planning",
+      "description": "Brainstorming, idea evaluation, decision making, interviewing and learning",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "productivity",
+        "thinking-planning"
+      ]
+    },
+    {
+      "name": "productivity-automation-personal",
+      "source": "./plugins/productivity/automation-personal",
+      "description": "Personal and workplace automation: calendar, email, chat, daily routines, OS utilities, no-code workflows",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "productivity",
+        "automation-personal"
+      ]
+    }
+  ]
+}

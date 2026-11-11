@@ -1,0 +1,15 @@
+{
+  "name": "engineering-dev-workflow",
+  "version": "1.0.0",
+  "description": "Planning, specs, tickets, documentation/ADRs, onboarding and implementation workflow. 34 open-source skills compiled by Skills Stack; each skill's ATTRIBUTION.md credits its original authors.",
+  "author": {
+    "name": "Skills Stack (compiler); skills by their original authors"
+  },
+  "homepage": "https://github.com/marslanalvi/SkillsStack/tree/main/plugins/engineering/dev-workflow",
+  "repository": "https://github.com/marslanalvi/SkillsStack",
+  "keywords": [
+    "engineering",
+    "dev-workflow",
+    "skills"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+ "https://github.com/affaan-m/ecc": {
+  "project": "Everything Claude Code (ECC)",
+  "credit": "Affaan Mustafa",
+  "license": "MIT",
+  "license_dir": "affaan-m__ecc"
+ },
+ "https://github.com/addyosmani/agent-skills": {
+  "project": "Agent Skills",
+  "credit": "Addy Osmani",
+  "license": "MIT",
+  "license_dir": "addyosmani__agent-skills"
+ },
+ "https://github.com/sickn33/agentic-awesome-skills": {
+  "project": "Agentic Awesome Skills",
+  "credit": "sickn33 and the agentic-awesome-skills contributors (copyright notice: \"Antigravity User\")",
+  "license": "MIT (code) / CC-BY-4.0 (written content)",
+  "license_dir": "sickn33__agentic-awesome-skills",
+  "note": "This collection itself gathers skills from many community authors. Where a skill names its own author or repository, that is credited as well."
+ },
+ "https://github.com/multica-ai/andrej-karpathy-skills": {
+  "project": "Karpathy-Inspired Claude Code Guidelines",
+  "credit": "Forrest Chang (forrestchang), based on Andrej Karpathy's public observations on LLM coding pitfalls",
+  "license": "MIT",
+  "license_dir": "multica-ai__andrej-karpathy-skills"
+ },
+ "https://github.com/coreyhaines31/marketingskills": {
+  "project": "Marketing Skills",
+  "credit": "Corey Haines",
+  "license": "MIT",
+  "license_dir": "coreyhaines31__marketingskills"
+ },
+ "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill": {
+  "project": "UI UX Pro Max",
+  "credit": "Next Level Builder",
+  "license": "MIT",
+  "license_dir": "nextlevelbuilder__ui-ux-pro-max-skill"
+ },
+ "https://github.com/cloudflare/security-audit-skill": {
+  "project": "Security Audit Skill",
+  "credit": "Cloudflare, Inc.",
+  "license": "MIT",
+  "license_dir": "cloudflare__security-audit-skill"
+ },
+ "https://github.com/wshobson/agents": {
+  "project": "Agents",
+  "credit": "Seth Hobson",
+  "license": "MIT",
+  "license_dir": "wshobson__agents"
+ },
+ "https://github.com/trailofbits/skills": {
+  "project": "Trail of Bits Skills",
+  "credit": "Trail of Bits",
+  "license": "CC-BY-SA-4.0",
+  "license_dir": "trailofbits__skills",
+  "note": "Licensed under Creative Commons Attribution-ShareAlike 4.0. If you adapt this skill and share your version, you must credit Trail of Bits, say what you changed, and release your version under CC-BY-SA-4.0 or a compatible license."
+ },
+ "https://github.com/mattpocock/skills": {
+  "project": "Skills",
+  "credit": "Matt Pocock",
+  "license": "MIT",
+  "license_dir": "mattpocock__skills"
+ },
+ "https://github.com/anthropics/skills": {
+  "project": "Anthropic Agent Skills",
+  "credit": "Anthropic, PBC",
+  "license": "Apache-2.0 (set per skill)",
+  "license_dir": "anthropics__skills",
+  "note": "Anthropic sets the license per skill. Where this skill folder contains its own LICENSE.txt, that file is the license that applies."
+ },
+ "https://github.com/obra/superpowers": {
+  "project": "Superpowers",
+  "credit": "Jesse Vincent",
+  "license": "MIT",
+  "license_dir": "obra__superpowers"
+ }
+}

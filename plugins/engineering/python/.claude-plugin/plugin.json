@@ -1,0 +1,15 @@
+{
+  "name": "engineering-python",
+  "version": "1.0.0",
+  "description": "Python patterns, packaging, typing, async, testing and frameworks (Django, FastAPI). 29 open-source skills compiled by Skills Stack; each skill's ATTRIBUTION.md credits its original authors.",
+  "author": {
+    "name": "Skills Stack (compiler); skills by their original authors"
+  },
+  "homepage": "https://github.com/marslanalvi/SkillsStack/tree/main/plugins/engineering/python",
+  "repository": "https://github.com/marslanalvi/SkillsStack",
+  "keywords": [
+    "engineering",
+    "python",
+    "skills"
+  ]
+}

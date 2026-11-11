@@ -1,0 +1,15 @@
+{
+  "name": "engineering-other-languages",
+  "version": "1.0.0",
+  "description": "PHP/Laravel, Ruby/Rails, Perl, .NET/C#/F#, and other languages and frameworks. 25 open-source skills compiled by Skills Stack; each skill's ATTRIBUTION.md credits its original authors.",
+  "author": {
+    "name": "Skills Stack (compiler); skills by their original authors"
+  },
+  "homepage": "https://github.com/marslanalvi/SkillsStack/tree/main/plugins/engineering/other-languages",
+  "repository": "https://github.com/marslanalvi/SkillsStack",
+  "keywords": [
+    "engineering",
+    "other-languages",
+    "skills"
+  ]
+}

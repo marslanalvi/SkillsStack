@@ -1,0 +1,30 @@
+name: Skill in the wrong category
+description: A skill is in a plugin where people won't look for it
+title: "[Category]: "
+labels: ["category"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      placeholder: react-testing
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Plugin it's in now
+      placeholder: engineering-frontend
+    validations:
+      required: true
+  - type: input
+    id: better
+    attributes:
+      label: Plugin it should be in
+      placeholder: engineering-testing
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why? (optional)

@@ -1,0 +1,15 @@
+{
+  "name": "security-appsec-review",
+  "version": "1.0.0",
+  "description": "Secure coding, security code review, static analysis (Semgrep, CodeQL) and audits. 54 open-source skills compiled by Skills Stack; each skill's ATTRIBUTION.md credits its original authors.",
+  "author": {
+    "name": "Skills Stack (compiler); skills by their original authors"
+  },
+  "homepage": "https://github.com/marslanalvi/SkillsStack/tree/main/plugins/security/appsec-review",
+  "repository": "https://github.com/marslanalvi/SkillsStack",
+  "keywords": [
+    "security",
+    "appsec-review",
+    "skills"
+  ]
+}

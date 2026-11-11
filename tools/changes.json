@@ -1,0 +1,15 @@
+{
+ "_about": "Changes Skills Stack made to upstream skill files, keyed by the skill's folder path. Every skill was also moved to a new folder and given an ATTRIBUTION.md; that is stated for all skills and not repeated here.",
+ "plugins/ai/agent-engineering/skills/software-factory": ["SKILL.md: wrapped the description in quotes so its YAML frontmatter parses (the unquoted colon made the skill load with no description)."],
+ "plugins/design/ui-ux/skills/design-system-tokens": ["Renamed the folder and the `name` field from `design-system` to `design-system-tokens`, so it does not clash with a different skill of the same name in this plugin."],
+ "plugins/ai/agent-engineering/skills/subagent-driven-development": ["references/final-review.md: updated relative links to other skills' new folder locations."],
+ "plugins/business/strategy-sales/skills/offers": ["references/offer-formats.md: updated relative links to other skills' new folder locations."],
+ "plugins/business/strategy-sales/skills/prospecting": ["references/demand-signals.md: updated relative links to other skills' new folder locations."],
+ "plugins/data/research/skills/osint-investigation": ["SKILL.md: updated relative links to other skills' new folder locations."],
+ "plugins/engineering/dev-workflow/skills/executing-plans": ["SKILL.md: updated relative links to other skills' new folder locations."],
+ "plugins/engineering/frontend/skills/i18n-sync": ["SKILL.md: updated relative links to other skills' new folder locations."],
+ "plugins/engineering/frontend/skills/react-patterns": ["SKILL.md: updated relative links to other skills' new folder locations."],
+ "plugins/engineering/frontend/skills/react-performance": ["SKILL.md: updated relative links to other skills' new folder locations."],
+ "plugins/engineering/frontend/skills/react-testing": ["SKILL.md: updated relative links to other skills' new folder locations."],
+ "plugins/marketing/growth-ads/skills/ads": ["references/creative-research-automation.md: updated relative links to other skills' new folder locations."]
+}

@@ -1,0 +1,24 @@
+name: Broken skill or plugin
+description: A skill doesn't load, has a broken link, or a plugin fails to install
+title: "[Broken]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: what
+    attributes:
+      label: Skill or plugin name
+      placeholder: engineering-python / django-tdd
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What went wrong?
+      description: Include the command you ran and any error message.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Claude Code version (if relevant)
+      placeholder: claude --version

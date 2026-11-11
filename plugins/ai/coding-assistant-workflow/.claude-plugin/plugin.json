@@ -1,0 +1,15 @@
+{
+  "name": "ai-coding-assistant-workflow",
+  "version": "1.0.0",
+  "description": "Getting more from AI coding assistants: setup, context and token management, memory, guardrails, subagents. 70 open-source skills compiled by Skills Stack; each skill's ATTRIBUTION.md credits its original authors.",
+  "author": {
+    "name": "Skills Stack (compiler); skills by their original authors"
+  },
+  "homepage": "https://github.com/marslanalvi/SkillsStack/tree/main/plugins/ai/coding-assistant-workflow",
+  "repository": "https://github.com/marslanalvi/SkillsStack",
+  "keywords": [
+    "ai",
+    "coding-assistant-workflow",
+    "skills"
+  ]
+}

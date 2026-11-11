@@ -1,0 +1,33 @@
+name: Author request (credit or removal)
+description: You wrote a skill in Skills Stack and want the credit changed or the skill removed
+title: "[Author request]: "
+labels: ["author request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for sharing your work. Skills Stack credits every author and will act on your request as a priority.
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name(s)
+    validations:
+      required: true
+  - type: dropdown
+    id: request
+    attributes:
+      label: What would you like?
+      options:
+        - Change how I'm credited
+        - Remove my skill(s) from Skills Stack
+        - Update my skill(s) to the latest version
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: For credit changes, tell us exactly how you'd like to be named and linked. Linking from the original repository or your profile helps us confirm you're the author.
+    validations:
+      required: true

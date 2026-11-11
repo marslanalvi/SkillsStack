@@ -1,0 +1,15 @@
+{
+  "name": "devops-ci-cd",
+  "version": "1.0.0",
+  "description": "CI/CD pipelines, GitHub Actions, GitLab CI, release and deployment automation. 7 open-source skills compiled by Skills Stack; each skill's ATTRIBUTION.md credits its original authors.",
+  "author": {
+    "name": "Skills Stack (compiler); skills by their original authors"
+  },
+  "homepage": "https://github.com/marslanalvi/SkillsStack/tree/main/plugins/devops/ci-cd",
+  "repository": "https://github.com/marslanalvi/SkillsStack",
+  "keywords": [
+    "devops",
+    "ci-cd",
+    "skills"
+  ]
+}

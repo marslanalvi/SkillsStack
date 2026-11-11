@@ -1,0 +1,15 @@
+{
+  "name": "engineering-debugging",
+  "version": "1.0.0",
+  "description": "Debugging, root-cause analysis, error handling and regression hunting. 20 open-source skills compiled by Skills Stack; each skill's ATTRIBUTION.md credits its original authors.",
+  "author": {
+    "name": "Skills Stack (compiler); skills by their original authors"
+  },
+  "homepage": "https://github.com/marslanalvi/SkillsStack/tree/main/plugins/engineering/debugging",
+  "repository": "https://github.com/marslanalvi/SkillsStack",
+  "keywords": [
+    "engineering",
+    "debugging",
+    "skills"
+  ]
+}

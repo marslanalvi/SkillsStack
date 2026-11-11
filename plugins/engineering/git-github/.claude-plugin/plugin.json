@@ -1,0 +1,15 @@
+{
+  "name": "engineering-git-github",
+  "version": "1.0.0",
+  "description": "Git, GitHub, pull requests, releases, monorepos, build tooling and dependency upgrades. 27 open-source skills compiled by Skills Stack; each skill's ATTRIBUTION.md credits its original authors.",
+  "author": {
+    "name": "Skills Stack (compiler); skills by their original authors"
+  },
+  "homepage": "https://github.com/marslanalvi/SkillsStack/tree/main/plugins/engineering/git-github",
+  "repository": "https://github.com/marslanalvi/SkillsStack",
+  "keywords": [
+    "engineering",
+    "git-github",
+    "skills"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "data-research",
+  "version": "1.0.0",
+  "description": "Deep research, web search, scientific literature, scraping and fact-finding. 25 open-source skills compiled by Skills Stack; each skill's ATTRIBUTION.md credits its original authors.",
+  "author": {
+    "name": "Skills Stack (compiler); skills by their original authors"
+  },
+  "homepage": "https://github.com/marslanalvi/SkillsStack/tree/main/plugins/data/research",
+  "repository": "https://github.com/marslanalvi/SkillsStack",
+  "keywords": [
+    "data",
+    "research",
+    "skills"
+  ]
+}

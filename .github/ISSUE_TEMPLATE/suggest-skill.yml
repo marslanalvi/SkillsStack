@@ -1,0 +1,39 @@
+name: Suggest a skill
+description: Point us to a skill that should be in Skills Stack
+title: "[Skill suggestion]: "
+labels: ["skill suggestion"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link to the skill
+      description: The GitHub URL of the skill folder or repository.
+      placeholder: https://github.com/owner/repo/tree/main/skills/my-skill
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: Skills Stack can only include skills with a license that allows redistribution (for example MIT, Apache-2.0 or CC-BY).
+      placeholder: MIT
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What does it do, and why is it useful?
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Which plugin should it go in? (optional)
+      placeholder: engineering-python
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the catalog and this skill isn't already in Skills Stack.
+          required: true

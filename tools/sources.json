@@ -1,0 +1,500 @@
+[
+ {
+  "folder": "ECC",
+  "repo_url": "https://github.com/affaan-m/ecc",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "agent-skills",
+  "repo_url": "https://github.com/addyosmani/agent-skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "agentic-awesome-skills",
+  "repo_url": "https://github.com/sickn33/agentic-awesome-skills",
+  "license": "MIT (code) / CC-BY-4.0 (content)",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "andrej-karpathy-skills",
+  "repo_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "marketingskills",
+  "repo_url": "https://github.com/coreyhaines31/marketingskills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "ui-ux-pro-max-skill",
+  "repo_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "security-audit-skill",
+  "repo_url": "https://github.com/cloudflare/security-audit-skill",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "agents",
+  "repo_url": "https://github.com/wshobson/agents",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/plugins",
+  "repo_url": "https://github.com/trailofbits/skills",
+  "license": "CC-BY-SA-4.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/academy-guide",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/algorithmic-art",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/brainstorming",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/brand-guidelines",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/canvas-design",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/claude-api",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/diagnosing-superpowers",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/discernment-nudge",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/dispatching-parallel-agents",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/doc-coauthoring",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "none stated",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/docx",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/executing-plans",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/finishing-a-development-branch",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/frontend-design",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/in-progress/chief-of-staff",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/in-progress/claude-handoff",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/in-progress/loop-me",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/in-progress/setup-ts-deep-modules",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/in-progress/software-factory",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/internal-comms",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/mcp-builder",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/misc/git-guardrails-claude-code",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/misc/migrate-to-shoehorn",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/misc/scaffold-exercises",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/misc/setup-pre-commit",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/pdf",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/pptx",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/productivity/grill-me",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/productivity/grilling",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/productivity/handoff",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/productivity/teach",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/productivity/to-questionnaire",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/productivity/wait-what",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/productivity/writing-for-agents",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/receiving-code-review",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/requesting-code-review",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/skill-creator",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/slack-gif-creator",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/subagent-driven-development",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/systematic-debugging",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/test-driven-development",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/theme-factory",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/using-git-worktrees",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/using-superpowers",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/verification-before-completion",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/web-artifacts-builder",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/webapp-testing",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/writing-plans",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/writing-skills",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/skills/xlsx",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "repository/template",
+  "repo_url": "https://github.com/anthropics/skills",
+  "license": "none stated",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/ask-matt",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/code-review",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/codebase-design",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/diagnosing-bugs",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/domain-modeling",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/grill-with-docs",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/implement",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/implement-spec",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/improve-codebase-architecture",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/pr",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/prototype",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/research",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/retro",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/setup-matt-pocock-skills",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/tdd",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/to-spec",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/to-tickets",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/triage",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/wayfinder",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/in-progress/writing-beats",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/in-progress/writing-fragments",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/in-progress/writing-shape",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ },
+ {
+  "folder": "skills/skills/engineering/wizard",
+  "repo_url": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "confidence": "confirmed"
+ }
+]

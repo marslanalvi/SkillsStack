@@ -1,0 +1,86 @@
+{
+ "architecture-decision-records": {
+  "primary": "ECC/architecture-decision-records",
+  "alternates": [
+   "agents/plugins/documentation-generation/skills/architecture-decision-records"
+  ]
+ },
+ "git-workflow": {
+  "primary": "ECC/git-workflow",
+  "alternates": [
+   "agentic-awesome-skills/skills/git-workflow"
+  ]
+ },
+ "recsys-pipeline-architect": {
+  "primary": "agents/plugins/machine-learning-ops/skills/recsys-pipeline-architect",
+  "alternates": [
+   "ECC/recsys-pipeline-architect"
+  ]
+ },
+ "test-driven-development": {
+  "primary": "agent-skills/skills/test-driven-development",
+  "alternates": [
+   "repository/skills/test-driven-development"
+  ]
+ },
+ "attack-tree-construction": {
+  "primary": "agentic-awesome-skills/skills/attack-tree-construction",
+  "alternates": [
+   "agents/plugins/security-scanning/skills/attack-tree-construction"
+  ]
+ },
+ "billing-automation": {
+  "primary": "agentic-awesome-skills/skills/billing-automation",
+  "alternates": [
+   "agents/plugins/payment-processing/skills/billing-automation"
+  ]
+ },
+ "co-marketing": {
+  "primary": "marketingskills/skills/co-marketing",
+  "alternates": [
+   "agentic-awesome-skills/skills/co-marketing"
+  ]
+ },
+ "customer-research": {
+  "primary": "marketingskills/skills/customer-research",
+  "alternates": [
+   "agentic-awesome-skills/skills/customer-research"
+  ]
+ },
+ "github-actions-templates": {
+  "primary": "agents/plugins/cicd-automation/skills/github-actions-templates",
+  "alternates": [
+   "agentic-awesome-skills/skills/github-actions-templates"
+  ]
+ },
+ "helm-chart-scaffolding": {
+  "primary": "agentic-awesome-skills/skills/helm-chart-scaffolding",
+  "alternates": [
+   "agents/plugins/kubernetes-operations/skills/helm-chart-scaffolding"
+  ]
+ },
+ "mcp-builder": {
+  "primary": "repository/skills/mcp-builder",
+  "alternates": [
+   "agentic-awesome-skills/skills/mcp-builder"
+  ]
+ },
+ "microservices-patterns": {
+  "primary": "agents/plugins/backend-development/skills/microservices-patterns",
+  "alternates": [
+   "agentic-awesome-skills/skills/microservices-patterns"
+  ]
+ },
+ "mtls-configuration": {
+  "primary": "agentic-awesome-skills/skills/mtls-configuration",
+  "alternates": [
+   "agents/plugins/cloud-infrastructure/skills/mtls-configuration"
+  ]
+ },
+ "ui-styling": {
+  "primary": "ui-ux-pro-max-skill/.claude/skills/ui-styling",
+  "alternates": [
+   "ui-ux-pro-max-skill/cli/assets/skills/ui-styling"
+  ]
+ }
+}
