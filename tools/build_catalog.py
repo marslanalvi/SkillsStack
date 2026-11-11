@@ -83,6 +83,74 @@ def credit_line(s):
     return one_line(who, 60)
 
 
+def find_dependencies(plugins):
+    """Record which skills call skills that live in a different plugin.
+
+    A reference counts only when a skill name appears in backticks or quotes, or as a
+    /slash-command, on a line that mentions "skill". Sets s["needs"] on each skill and
+    p["works_with"] (other plugin -> list of "skill -> other-skill") on each plugin.
+    """
+    home = collections.defaultdict(set)
+    for p in plugins:
+        for s in p["skills"]:
+            home[s["name"]].add(p["name"])
+    names = sorted((n for n in home if len(n) >= 4), key=len, reverse=True)
+    alt = "|".join(re.escape(n) for n in names)
+    token = re.compile(r"(?:[`\"']|(?<![\w/.-])/)(" + alt + r")(?:[`\"']|(?![\w-]))")
+    for p in plugins:
+        p["works_with"] = collections.defaultdict(set)
+        for s in p["skills"]:
+            s["needs"] = []
+            with open(os.path.join(ROOT, s["path"], "SKILL.md"), encoding="utf-8", errors="replace") as f:
+                text = f.read()
+            found = set()
+            for line in text.splitlines():
+                if "skill" not in line.lower():
+                    continue
+                for m in token.finditer(line):
+                    other = m.group(1)
+                    if other != s["name"] and p["name"] not in home[other]:
+                        found.add(other)
+            for other in sorted(found):
+                plugs = sorted(home[other])
+                s["needs"].append({"skill": other, "plugins": plugs})
+                for op in plugs:
+                    p["works_with"][op].add(f"`{s['name']}` uses `{other}`")
+        p["works_with"] = {k: sorted(v) for k, v in p["works_with"].items()}
+
+
+def write_plugin_readme(p):
+    cat, sub = p["key"].split("/")
+    pdir = os.path.join(ROOT, "plugins", cat, sub)
+    skills = p["skills"]
+    lines = [f"# {p['name']}", "", p["description"] + ".", "",
+             "## Install", "", "```bash",
+             f"/plugin marketplace add {REPO}",
+             f"/plugin install {p['name']}@{MARKETPLACE}", "```", ""]
+    if p["works_with"]:
+        lines += ["## Works best with", "",
+                  "Some skills here hand off to skills in other Skills Stack plugins. Install these too "
+                  "so those steps work:", ""]
+        for other, uses in sorted(p["works_with"].items(), key=lambda x: (-len(x[1]), x[0])):
+            shown = sorted(uses)
+            more = f" and {len(shown) - 4} more" if len(shown) > 4 else ""
+            lines.append(f"- **`{other}`**: {', '.join(shown[:4])}{more}")
+        lines += [""]
+    lines += [f"## Skills ({len(skills)})", "",
+              "| Skill | What it does | Created by | License |", "|---|---|---|---|"]
+    for s in skills:
+        lines.append(f"| [{s['name']}](skills/{s['folder']}/SKILL.md) | "
+                     f"{md_cell(one_line(s['description'], 200))} | {md_cell(credit_line(s))} | "
+                     f"{md_cell(one_line(s['license'], 40))} |")
+    lines += ["", "## Credit and licenses", "",
+              "Every skill in this plugin was created by the people named above and collected into "
+              "Skills Stack, which compiles open-source skills in one place. The authors keep all rights "
+              "to their work. Each skill folder has an `ATTRIBUTION.md` with its full credit, license and "
+              "any changes Skills Stack made, and the full license texts are in [LICENSES/](LICENSES).", ""]
+    with open(os.path.join(pdir, "README.md"), "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
+
 def main():
     with open(os.path.join(ROOT, "tools", "taxonomy.json"), encoding="utf-8") as f:
         taxonomy = json.load(f)
@@ -125,23 +193,9 @@ def main():
             json.dump(manifest, f, indent=2, ensure_ascii=False)
             f.write("\n")
 
-        lines = [f"# {plugin_name}", "", pdesc + ".", "",
-                 "## Install", "", "```bash",
-                 f"/plugin marketplace add {REPO}",
-                 f"/plugin install {plugin_name}@{MARKETPLACE}", "```", "",
-                 f"## Skills ({len(skills)})", "",
-                 "| Skill | What it does | Created by | License |", "|---|---|---|---|"]
-        for s in skills:
-            lines.append(f"| [{s['name']}](skills/{s['folder']}/SKILL.md) | "
-                         f"{md_cell(one_line(s['description'], 200))} | {md_cell(credit_line(s))} | "
-                         f"{md_cell(one_line(s['license'], 40))} |")
-        lines += ["", "## Credit and licenses", "",
-                  "Every skill in this plugin was created by the people named above and collected into "
-                  "Skills Stack, which compiles open-source skills in one place. The authors keep all rights "
-                  "to their work. Each skill folder has an `ATTRIBUTION.md` with its full credit, license and "
-                  "any changes Skills Stack made, and the full license texts are in [LICENSES/](LICENSES).", ""]
-        with open(os.path.join(pdir, "README.md"), "w", encoding="utf-8") as f:
-            f.write("\n".join(lines))
+    find_dependencies(plugins)
+    for p in plugins:
+        write_plugin_readme(p)
 
     alternates = []
     adir = os.path.join(ROOT, "alternates")

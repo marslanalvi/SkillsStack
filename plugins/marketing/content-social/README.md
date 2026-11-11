@@ -9,6 +9,12 @@ Content strategy, copywriting for marketing, social media, newsletters and PR.
 /plugin install marketing-content-social@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`marketing-seo`**: `public-relations` uses `directory-submissions`
+
 ## Skills (22)
 
 | Skill | What it does | Created by | License |

@@ -1,7 +1,7 @@
 {
   "name": "ai-skill-authoring",
   "version": "1.0.0",
-  "description": "Creating, testing, auditing and managing agent skills, rules and hooks. 17 open-source skills compiled by Skills Stack; each skill's ATTRIBUTION.md credits its original authors.",
+  "description": "Creating, testing, auditing and managing agent skills, rules and hooks. 16 open-source skills compiled by Skills Stack; each skill's ATTRIBUTION.md credits its original authors.",
   "author": {
     "name": "Skills Stack (compiler); skills by their original authors"
   },

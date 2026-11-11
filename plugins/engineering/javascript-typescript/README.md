@@ -9,6 +9,12 @@ JavaScript, TypeScript, Node.js, Bun and server-side JS frameworks (NestJS, etc.
 /plugin install engineering-javascript-typescript@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`engineering-architecture-api`**: `setup-ts-deep-modules` uses `codebase-design`
+
 ## Skills (14)
 
 | Skill | What it does | Created by | License |

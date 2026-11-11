@@ -9,7 +9,19 @@ Creating, testing, auditing and managing agent skills, rules and hooks.
 /plugin install ai-skill-authoring@skills-stack
 ```
 
-## Skills (17)
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`engineering-dev-workflow`**: `setup-matt-pocock-skills` uses `to-spec`, `setup-matt-pocock-skills` uses `to-tickets`, `using-agent-skills` uses `incremental-implementation`, `using-agent-skills` uses `planning-and-task-breakdown` and 2 more
+- **`engineering-code-review-quality`**: `skill-improver` uses `code-improver`, `using-agent-skills` uses `code-review-and-quality`, `using-agent-skills` uses `code-simplification`
+- **`ai-coding-assistant-workflow`**: `skill-scout` uses `agent-sort`
+- **`engineering-debugging`**: `using-agent-skills` uses `debugging-and-error-recovery`
+- **`engineering-git-github`**: `setup-matt-pocock-skills` uses `triage`
+- **`engineering-testing`**: `using-agent-skills` uses `test-driven-development`
+- **`productivity-thinking-planning`**: `using-agent-skills` uses `idea-refine`
+
+## Skills (16)
 
 | Skill | What it does | Created by | License |
 |---|---|---|---|
@@ -25,7 +37,6 @@ Creating, testing, auditing and managing agent skills, rules and hooks.
 | [skill-improver](skills/skill-improver/SKILL.md) | Runs an autonomous review-and-fix improvement loop over a Claude Code skill until a review comes back clean, with a cross-round findings ledger, escalation when fixes stop converging, and a mechanica… | Trail of Bits | CC-BY-SA-4.0 |
 | [skill-scout](skills/skill-scout/SKILL.md) | Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. Use when the user wants to create, build, fork, or find a skill for a workflow. | Affaan Mustafa | MIT |
 | [skill-stocktake](skills/skill-stocktake/SKILL.md) | Use when auditing Claude skills and commands for quality. Supports Quick Scan (changed skills only) and Full Stocktake modes with sequential subagent batch evaluation. | Affaan Mustafa | MIT |
-| [template-skill](skills/template/SKILL.md) | Replace with description of the skill and when Claude should use it. | Anthropic, PBC | None stated (all rights reserved by its… |
 | [using-agent-skills](skills/using-agent-skills/SKILL.md) | Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow applies to the piece of work at hand. This is the meta-skill that governs how all o… | Addy Osmani | MIT |
 | [using-superpowers](skills/using-superpowers/SKILL.md) | Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions | Jesse Vincent | MIT |
 | [writing-for-agents](skills/writing-for-agents/SKILL.md) | Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md. | Matt Pocock | MIT |

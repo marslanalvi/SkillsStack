@@ -9,6 +9,13 @@ UI/UX design, design systems, visual styles, interaction and landing pages.
 /plugin install design-ui-ux@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`engineering-frontend`**: `design` uses `ui-styling`
+- **`marketing-content-social`**: `design` uses `brand`
+
 ## Skills (26)
 
 | Skill | What it does | Created by | License |

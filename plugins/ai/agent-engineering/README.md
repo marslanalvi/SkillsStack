@@ -9,6 +9,15 @@ Building AI agents: harnesses, multi-agent orchestration, autonomous loops and a
 /plugin install ai-agent-engineering@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`ai-coding-assistant-workflow`**: `agent-introspection-debugging` uses `continuous-learning-v2`, `autonomous-loops` uses `verification-loop`, `iterative-retrieval` uses `continuous-learning`
+- **`engineering-dev-workflow`**: `chief-of-staff` uses `implement-spec`, `chief-of-staff` uses `retro`
+- **`ai-skill-authoring`**: `chief-of-staff` uses `writing-for-agents`
+- **`engineering-testing`**: `orch-pipeline` uses `tdd-workflow`
+
 ## Skills (54)
 
 | Skill | What it does | Created by | License |

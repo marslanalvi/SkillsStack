@@ -6,7 +6,7 @@
 
 **The best open-source skills for Claude Code and other AI agents, written by the community and compiled under one roof.**
 
-[![Skills](https://img.shields.io/badge/skills-986-blue)](CATALOG.md)
+[![Skills](https://img.shields.io/badge/skills-985-blue)](CATALOG.md)
 [![Plugins](https://img.shields.io/badge/plugins-45-blueviolet)](#plugins)
 [![Categories](https://img.shields.io/badge/categories-9-orange)](#find-a-skill-for-your-task)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-plugin%20marketplace-d97757)](#quick-start-claude-code)
@@ -76,7 +76,7 @@ Install any of them with `/plugin install <name>@skills-stack`, or [search every
 ## Plugins
 
 <!-- PLUGINS:START -->
-**986 skills in 45 plugins.**
+**985 skills in 45 plugins.**
 
 | Category | Plugin | Skills | What's inside |
 |---|---|---:|---|
@@ -109,7 +109,7 @@ Install any of them with `/plugin install <name>@skills-stack`, or [search every
 | ai | [`ai-llm-applications`](plugins/ai/llm-applications) | 15 | LLM apps: prompting, RAG, embeddings, vector search, caching, evals and model APIs |
 | ai | [`ai-machine-learning`](plugins/ai/machine-learning) | 26 | ML training, fine-tuning, MLOps, model serving, PyTorch and data science |
 | ai | [`ai-coding-assistant-workflow`](plugins/ai/coding-assistant-workflow) | 70 | Getting more from AI coding assistants: setup, context and token management, memory, guardrails, subagents |
-| ai | [`ai-skill-authoring`](plugins/ai/skill-authoring) | 17 | Creating, testing, auditing and managing agent skills, rules and hooks |
+| ai | [`ai-skill-authoring`](plugins/ai/skill-authoring) | 16 | Creating, testing, auditing and managing agent skills, rules and hooks |
 | data | [`data-data-engineering-analytics`](plugins/data/data-engineering-analytics) | 9 | Data pipelines (Airflow, dbt, Spark), analytics, dashboards and metrics |
 | data | [`data-research`](plugins/data/research) | 25 | Deep research, web search, scientific literature, scraping and fact-finding |
 | design | [`design-ui-ux`](plugins/design/ui-ux) | 26 | UI/UX design, design systems, visual styles, interaction and landing pages |
@@ -142,6 +142,7 @@ SkillsStack/
 │           ├── ATTRIBUTION.md        # who created it, its license, and any changes we made
 │           └── ...                   # scripts, references, assets
 ├── alternates/                       # other versions of duplicated skills (not installed)
+├── templates/skill-template/         # Anthropic's blank skill template, for reference (not installed)
 ├── licenses/                         # full license text of every upstream project
 ├── sources/                          # collection-level files kept from upstream
 ├── CREDITS.md                        # everyone whose work is in Skills Stack
@@ -215,6 +216,6 @@ See [NOTICE.md](NOTICE.md) for the full compilation notice. This README is not l
 ## Known limitations
 
 - Skills were sorted into categories automatically and reviewed by hand. A few could fit more than one plugin; suggestions are welcome.
-- 17 links point from a skill in one plugin to a skill in another. They work when browsing this repository, but break if you install only one of the two plugins.
+- Some skills hand off to a skill in another plugin (for example, `grill-with-docs` uses `domain-modeling`). Each plugin's README lists these under **Works best with**; install those plugins too, or the hand-off step is skipped. A few file links between skills in different plugins also only resolve when both plugins are installed.
 - Some skills link to files their upstream repositories never included in the collected folder. Those links were already broken before Skills Stack collected them.
 - `plugins/ai/agent-engineering/skills/loki-mode` includes about 650 SWE-bench benchmark `.patch` files from upstream. They make the plugin larger to download, but they don't affect how the skill works.

@@ -9,6 +9,12 @@ Software architecture, API design, microservices, event-driven systems and desig
 /plugin install engineering-architecture-api@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`productivity-thinking-planning`**: `improve-codebase-architecture` uses `grilling`
+
 ## Skills (27)
 
 | Skill | What it does | Created by | License |

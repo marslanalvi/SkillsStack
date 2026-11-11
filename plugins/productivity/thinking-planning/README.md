@@ -9,6 +9,14 @@ Brainstorming, idea evaluation, decision making, interviewing and learning.
 /plugin install productivity-thinking-planning@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`engineering-dev-workflow`**: `interview-me` uses `planning-and-task-breakdown`, `interview-me` uses `spec-driven-development`
+- **`ai-coding-assistant-workflow`**: `interview-me` uses `doubt-driven-development`
+- **`engineering-architecture-api`**: `grill-with-docs` uses `domain-modeling`
+
 ## Skills (18)
 
 | Skill | What it does | Created by | License |

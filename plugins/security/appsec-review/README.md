@@ -9,6 +9,16 @@ Secure coding, security code review, static analysis (Semgrep, CodeQL) and audit
 /plugin install security-appsec-review@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`security-fuzzing`**: `diagramming-code` uses `genotoxic`, `graph-evolution` uses `genotoxic`
+- **`devops-observability-sre`**: `security-and-hardening` uses `observability-and-instrumentation`
+- **`engineering-debugging`**: `security-and-hardening` uses `debugging-and-error-recovery`
+- **`engineering-git-github`**: `vulnerability-triage-brocards` uses `triage`
+- **`security-blockchain-web3`**: `rust-review` uses `solana-vulnerability-scanner`
+
 ## Skills (54)
 
 | Skill | What it does | Created by | License |

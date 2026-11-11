@@ -9,6 +9,12 @@ Java, Kotlin and JVM frameworks (Spring Boot, Quarkus, Ktor, JPA).
 /plugin install engineering-jvm@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`engineering-mobile`**: `kotlin-coroutines-flows` uses `android-clean-architecture`, `kotlin-coroutines-flows` uses `compose-multiplatform-patterns`
+
 ## Skills (18)
 
 | Skill | What it does | Created by | License |

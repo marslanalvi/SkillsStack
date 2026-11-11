@@ -9,6 +9,12 @@ Deep research, web search, scientific literature, scraping and fact-finding.
 /plugin install data-research@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`design-media-creative`**: `last30days` uses `image`
+
 ## Skills (25)
 
 | Skill | What it does | Created by | License |

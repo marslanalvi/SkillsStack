@@ -9,6 +9,15 @@ Startup strategy, market research, competitive analysis, sales, fundraising and 
 /plugin install business-strategy-sales@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`marketing-growth-ads`**: `offers` uses `launch`, `offers` uses `paywalls`, `offers` uses `pricing`
+- **`design-media-creative`**: `investor-materials` uses `frontend-slides`
+- **`marketing-content-social`**: `offers` uses `copywriting`
+- **`productivity-writing-communication`**: `lead-intelligence` uses `brand-voice`
+
 ## Skills (21)
 
 | Skill | What it does | Created by | License |

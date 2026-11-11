@@ -17,7 +17,7 @@ Skills Stack is a compilation: it gathers skills like this one in one place so p
 
 **No license is stated for this skill.** The upstream repository has no license file for it, so no license is granted, by its authors or by Skills Stack. All rights remain with its authors. It is included here with full credit for reference, and will be removed if its authors ask. Don't copy, modify or redistribute it unless its authors give you permission.
 
-Other skills in the Anthropic Agent Skills collection are licensed per skill; see [LICENSE-NOTE.md](../../LICENSES/anthropics__skills/LICENSE-NOTE.md).
+Other skills in the Anthropic Agent Skills collection are licensed per skill; see [LICENSE-NOTE.md](../../licenses/anthropics__skills/LICENSE-NOTE.md).
 
 ## Changes made by Skills Stack
 

@@ -9,6 +9,20 @@ Getting more from AI coding assistants: setup, context and token management, mem
 /plugin install ai-coding-assistant-workflow@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`ai-skill-authoring`**: `agent-sort` uses `skill-stocktake`, `ask-matt` uses `setup-matt-pocock-skills`, `ask-matt` uses `writing-for-agents`, `config-gc` uses `skill-stocktake` and 1 more
+- **`engineering-code-review-quality`**: `constraint-driven-development` uses `code-review-and-quality`, `plan-orchestrate` uses `code-review`
+- **`engineering-dev-workflow`**: `module-governance` uses `docs-governance`, `prompt-optimizer` uses `blueprint`
+- **`productivity-thinking-planning`**: `ask-matt` uses `grill-with-docs`, `constraint-driven-development` uses `interview-me`
+- **`ai-agent-engineering`**: `plan-orchestrate` uses `orch-add-feature`
+- **`engineering-debugging`**: `doubt-driven-development` uses `debugging-and-error-recovery`
+- **`engineering-testing`**: `constraint-driven-development` uses `test-driven-development`
+- **`productivity-writing-communication`**: `ask-matt` uses `wait-what`
+- **`security-appsec-review`**: `constraint-driven-development` uses `security-and-hardening`
+
 ## Skills (70)
 
 | Skill | What it does | Created by | License |

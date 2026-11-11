@@ -9,6 +9,12 @@ Word, PDF, PowerPoint, Excel, Google Workspace and file conversion.
 /plugin install productivity-documents-office@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`design-media-creative`**: `pptx` uses `slides`
+
 ## Skills (14)
 
 | Skill | What it does | Created by | License |

@@ -9,6 +9,12 @@ Web frontend: React, Vue, Angular, Next.js, Nuxt, CSS/Tailwind and frontend perf
 /plugin install engineering-frontend@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`engineering-mobile`**: `react-patterns` uses `react-native-patterns`
+
 ## Skills (34)
 
 | Skill | What it does | Created by | License |

@@ -72,9 +72,11 @@ def skill_dirs():
             sdir = os.path.join(ROOT, "plugins", cat, sub, "skills")
             for folder in sorted(os.listdir(sdir)):
                 yield os.path.join(sdir, folder), os.path.join(ROOT, "plugins", cat, sub)
-    adir = os.path.join(ROOT, "alternates")
-    for folder in sorted(os.listdir(adir)):
-        yield os.path.join(adir, folder), None
+    for extra in ("alternates", "templates"):
+        adir = os.path.join(ROOT, extra)
+        if os.path.isdir(adir):
+            for folder in sorted(os.listdir(adir)):
+                yield os.path.join(adir, folder), None
 
 
 def rel(path, start):

@@ -9,6 +9,14 @@ SQL, Postgres, MySQL, Redis, ORMs, schema design and migrations.
 /plugin install engineering-databases@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`engineering-architecture-api`**: `mysql-patterns` uses `backend-patterns`, `postgres-patterns` uses `backend-patterns`, `redis-patterns` uses `backend-patterns`
+- **`engineering-python`**: `redis-patterns` uses `django-patterns`
+- **`security-appsec-review`**: `mysql-patterns` uses `security-review`
+
 ## Skills (10)
 
 | Skill | What it does | Created by | License |

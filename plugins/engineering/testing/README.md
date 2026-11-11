@@ -9,6 +9,14 @@ TDD, unit/integration/E2E testing, test patterns and verification.
 /plugin install engineering-testing@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`engineering-architecture-api`**: `tdd` uses `codebase-design`
+- **`engineering-code-review-quality`**: `tdd` uses `code-review`
+- **`engineering-javascript-typescript`**: `tdd-workflow` uses `bun-runtime`
+
 ## Skills (16)
 
 | Skill | What it does | Created by | License |

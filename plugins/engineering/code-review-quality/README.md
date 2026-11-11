@@ -9,6 +9,16 @@ Code review, refactoring, simplification, code quality and technical debt.
 /plugin install engineering-code-review-quality@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`ai-skill-authoring`**: `code-improver` uses `skill-improver`, `code-review` uses `setup-matt-pocock-skills`, `pr-improver` uses `skill-improver`
+- **`engineering-testing`**: `production-audit` uses `e2e-testing`, `production-audit` uses `tdd-workflow`
+- **`security-appsec-review`**: `code-review-and-quality` uses `security-and-hardening`, `production-audit` uses `security-review`
+- **`ai-coding-assistant-workflow`**: `production-audit` uses `verification-loop`
+- **`devops-ci-cd`**: `production-audit` uses `deployment-patterns`
+
 ## Skills (27)
 
 | Skill | What it does | Created by | License |

@@ -9,6 +9,15 @@ Growth, CRO, ads, analytics tracking, A/B tests, pricing, email/SMS campaigns an
 /plugin install marketing-growth-ads@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`marketing-content-social`**: `marketing-loops` uses `emails`, `marketing-loops` uses `social`, `marketing-plan` uses `emails`
+- **`data-research`**: `marketing-council` uses `deep-research`, `marketing-council` uses `last30days`
+- **`marketing-seo`**: `marketing-loops` uses `seo-audit`, `marketing-plan` uses `seo-audit`
+- **`productivity-automation-personal`**: `marketing-loops` uses `daily`
+
 ## Skills (33)
 
 | Skill | What it does | Created by | License |

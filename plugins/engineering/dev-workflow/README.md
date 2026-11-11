@@ -9,6 +9,19 @@ Planning, specs, tickets, documentation/ADRs, onboarding and implementation work
 /plugin install engineering-dev-workflow@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`ai-skill-authoring`**: `implement-spec` uses `setup-matt-pocock-skills`, `retro` uses `writing-for-agents`, `to-spec` uses `setup-matt-pocock-skills`, `to-tickets` uses `setup-matt-pocock-skills` and 1 more
+- **`engineering-architecture-api`**: `context-and-decisions` uses `domain-modeling`, `wayfinder` uses `domain-modeling`
+- **`engineering-code-review-quality`**: `implement-spec` uses `code-review`, `implement` uses `code-review`
+- **`ai-coding-assistant-workflow`**: `spec-driven-development` uses `context-engineering`
+- **`data-research`**: `wayfinder` uses `research`
+- **`engineering-testing`**: `spec-driven-development` uses `test-driven-development`
+- **`productivity-thinking-planning`**: `wayfinder` uses `grilling`
+- **`security-appsec-review`**: `source-driven-development` uses `security-and-hardening`
+
 ## Skills (34)
 
 | Skill | What it does | Created by | License |

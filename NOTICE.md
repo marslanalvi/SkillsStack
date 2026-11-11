@@ -20,7 +20,7 @@ Skills Stack moves each skill into a category folder and adds an `ATTRIBUTION.md
 
 ## Skills with no stated license
 
-Two skills collected from https://github.com/anthropics/skills, `doc-coauthoring` and `template-skill`, have no license file upstream. They are included with credit to Anthropic, PBC, and no license is granted for them by Skills Stack. They will be removed on request.
+Two skills collected from https://github.com/anthropics/skills, `doc-coauthoring` and `template-skill`, have no license file upstream. They are included with credit to Anthropic, PBC, and no license is granted for them by Skills Stack. `template-skill` is a blank placeholder, so it is kept in `templates/skill-template/` for reference and is not part of any plugin. They will be removed on request.
 
 ## No warranty
 

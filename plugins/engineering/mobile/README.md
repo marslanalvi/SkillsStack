@@ -9,6 +9,12 @@ iOS, Android, Flutter, React Native, SwiftUI, Expo and desktop apps.
 /plugin install engineering-mobile@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`engineering-jvm`**: `android-clean-architecture` uses `kotlin-coroutines-flows`, `compose-multiplatform-patterns` uses `kotlin-coroutines-flows`
+
 ## Skills (23)
 
 | Skill | What it does | Created by | License |

@@ -9,6 +9,15 @@ Monitoring, tracing, logging, SLOs, incident response and on-call.
 /plugin install devops-observability-sre@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`engineering-code-review-quality`**: `observability-and-instrumentation` uses `performance-optimization`
+- **`engineering-debugging`**: `observability-and-instrumentation` uses `debugging-and-error-recovery`
+- **`engineering-dev-workflow`**: `observability-and-instrumentation` uses `shipping-and-launch`
+- **`security-appsec-review`**: `observability-and-instrumentation` uses `security-and-hardening`
+
 ## Skills (16)
 
 | Skill | What it does | Created by | License |

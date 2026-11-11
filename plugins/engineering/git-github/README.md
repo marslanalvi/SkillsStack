@@ -9,6 +9,15 @@ Git, GitHub, pull requests, releases, monorepos, build tooling and dependency up
 /plugin install engineering-git-github@skills-stack
 ```
 
+## Works best with
+
+Some skills here hand off to skills in other Skills Stack plugins. Install these too so those steps work:
+
+- **`engineering-architecture-api`**: `git-workflow-and-versioning` uses `api-and-interface-design`, `triage` uses `domain-modeling`
+- **`engineering-dev-workflow`**: `git-workflow-and-versioning` uses `deprecation-and-migration`, `git-workflow-and-versioning` uses `shipping-and-launch`
+- **`ai-skill-authoring`**: `triage` uses `setup-matt-pocock-skills`
+- **`productivity-thinking-planning`**: `triage` uses `grilling`
+
 ## Skills (27)
 
 | Skill | What it does | Created by | License |
